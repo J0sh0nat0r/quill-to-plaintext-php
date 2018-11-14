@@ -3,7 +3,7 @@
 namespace WilliamVenner;
 
 class QuillToPlaintext {
-	public function Convert($delta) {
+	public static function Convert($delta) {
 		$delta_obj;
 		if (is_string($delta))
 			$delta_obj = json_decode($delta);
