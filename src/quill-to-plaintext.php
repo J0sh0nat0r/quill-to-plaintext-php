@@ -15,8 +15,11 @@ class QuillToPlaintext {
 		
 		$plaintext = '';
 		foreach($delta_obj -> ops as $op) {
-			if (isset($op -> insert) && is_string($op -> insert)) {
-				$plaintext .= $op -> insert;
+			if (isset($op -> insert)) {
+				if (is_string($op -> insert))
+					$plaintext .= $op -> insert;
+				else
+					$plaintext .= ' ';
 			}
 		}
 		return $plaintext;
