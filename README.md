@@ -1,6 +1,6 @@
 [![Latest Stable Version](https://poser.pugx.org/williamvenner/quill-to-plaintext/version.svg)](https://packagist.org/packages/williamvenner/quill-to-plaintext)
 
-# quill-to-plaintext
+## quill-to-plaintext
 
 [NodeJS/JavaScript Version](https://github.com/WilliamVenner/quill-to-plaintext-js)
 
@@ -8,7 +8,7 @@ Converts a Quill Delta to plaintext. It will ignore any non-insert operations.
 
 You can either supply the JSON for a Quill Delta, or a Quill Delta object itself.
 
-# Installation
+## Installation
 
 Using composer:
 
@@ -16,7 +16,7 @@ Using composer:
 $ composer require williamvenner/quill-to-plaintext
 ```
 
-# How to use
+## How to use
 
 ```php
 use WilliamVenner\QuillToPlaintext;
