@@ -10,8 +10,8 @@ class QuillToPlaintext {
 		elseif (is_object($delta))
 			$delta_obj = $delta;
 		
-		if (!isset($delta_obj) || !isset($delta -> ops))
-			throw new Exception('Can\'t convert invalid Quill Delta to plaintext!');
+		if (!isset($delta_obj) || !isset($delta_obj -> ops))
+			throw new \Exception('Can\'t convert invalid Quill Delta to plaintext!');
 		
 		$plaintext = '';
 		foreach($delta_obj -> ops as $op) {
