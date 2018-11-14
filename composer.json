@@ -1,0 +1,20 @@
+{
+    "name": "williamvenner/quill-to-plaintext",
+    "description": "Converts a Quill Delta to plaintext - doesn't depend on Quill!",
+    "homepage": "https://github.com/WilliamVenner/quill-to-plaintext-php",
+    "keywords": ["quill", "delta", "plain", "text", "plaintext", "convert"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "William Venner",
+        "email": "william@venner.io"
+    }],
+    "require": {
+        "php": ">= 5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "WilliamVenner\\QuillToPlainText\\": "src/"
+        }
+    }
+}
